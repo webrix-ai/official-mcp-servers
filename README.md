@@ -1,44 +1,156 @@
 # official-mcp-servers
 
-- [Asana mcp](https://developers.asana.com/docs/using-asanas-model-control-protocol-mcp-server) - Provides a way to interact with your Asana workspace through various AI platforms and tools that support MCP.
-- [Atlassian remote mcp](https://www.atlassian.com/platform/remote-mcp-server) - Securely connect Jira and Confluence with your LLM, IDE, or agent platform of choice – starting with Anthropic
-- [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) - Surfaces CodeLogic’s software-dependency insights to coding assistants through MCP tools.
-- [Codex-Data/codex-mcp](https://github.com/Codex-Data/codex-mcp) - Supplies enriched multi-chain market and blockchain data to LLMs.
-- [Couchbase-Ecosystem/mcp-server-couchbase](https://github.com/Couchbase-Ecosystem/mcp-server-couchbase) - Gives LLMs natural-language access to Couchbase clusters for document and SQL++ queries.
-- [Hypersequent/qasphere-mcp](https://github.com/Hypersequent/qasphere-mcp) - Gives LLMs direct access to QA Sphere test cases for discovery, summaries and chat inside IDEs.
-- [JetBrains/mcp-jetbrains](https://github.com/JetBrains/mcp-jetbrains) - Proxy server that wires MCP clients into JetBrains IDEs such as IntelliJ and PyCharm.
-- [Rootly-AI-Labs/Rootly-MCP-server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server) - Lets developers manage incidents and post-mortems through the Rootly API from their IDE.
-- [VictoriaMetrics-Community/mcp-victoriametrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics) - Lets agents run read-only VMUI queries against VictoriaMetrics for metrics exploration.
-- [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp) - Delivers risk scores and asset intelligence for blockchain addresses and domains.
-- [alchemy/alchemy-mcp-server](https://github.com/alchemyplatform/alchemy-mcp-server) - Provides structured blockchain-data access to Alchemy APIs for querying accounts, tokens and NFTs.
-- [aliyun/alibaba-cloud-ops-mcp-server](https://github.com/aliyun/alibaba-cloud-ops-mcp-server) - MCP server exposing ECS, Cloud Monitor, OOS and other Alibaba Cloud APIs to AI assistants.
-- [awslabs/mcp](https://github.com/awslabs/mcp) - A suite of specialized MCP servers that help you get the most out of AWS, wherever you use MCP.
-- [awslabs/mcp](https://github.com/awslabs/mcp) - Suite of AWS-focused MCP servers that give AI agents structured access to AWS services and resources.
-- [base/base-mcp](https://github.com/base/base-mcp) - On-chain tools that let agents interact with the Base network and Coinbase APIs via MCP.
-- [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase)  - This server provides cloud browser automation capabilities using [Browserbase](https://www.browserbase.com/) and [Stagehand](https://github.com/browserbase/stagehand). This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment.
-- [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) - Cloud browser-automation server that lets LLMs open pages, run JavaScript, and capture screenshots in a Browserbase instance.
-- [chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) - Connects Chargebee’s subscription-billing APIs to AI assistants over MCP.
-- [chroma-core/chroma-mcp](https://github.com/chroma-core/chroma-mcp) - Connects agents to Chroma vector stores for fast retrieval and embedding management.
-- [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Connects MCP clients to Cloudflare Workers, KV, R2, D1 and more through natural-language tools.
-- [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) - Real-time and historical DEX liquidity and token analytics through the DexPaprika API.
-- [comet-ml/opik-mcp](https://github.com/comet-ml/opik-mcp) - Unified MCP interface to the Opik observability platform for querying traces and metrics.
-- [currents-dev/currents-mcp](https://github.com/currents-dev/currents-mcp) - Lets agents pull Currents CI test-run data and ask for fixes or optimizations.
-- [cyclops-ui/mcp-cyclops](https://github.com/cyclops-ui/mcp-cyclops) - Lets AI agents create, inspect and update Kubernetes apps via the Cyclops abstraction.
-- [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp) - Official MCP server that exposes dbt project metadata and semantic-layer queries to AI tools.
-- [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) - Enables real-time web search via the Exa Search API so agents can pull fresh information.
-- [flowcore-io/mcp-flowcore-platform](https://github.com/flowcore-io/mcp-flowcore-platform) - Standard interface for querying and managing Flowcore platform resources.
-- [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) - Enables discovery, management and codification of cloud/SaaS resources tracked by Firefly.
-- [grafana/mcp-grafana](https://github.com/grafana/mcp-grafana) - MCP gateway to dashboards, queries and incident workflows in any Grafana instance.
-- [growthbook/growthbook-mcp](https://github.com/growthbook/growthbook-mcp) - Lets LLMs see experiment results and manage GrowthBook feature flags from within an IDE.
-- [heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) - Bridges AI agents to a mesh of specialized Web3-analysis tools covering on-chain data, security and token metrics.
-- [jedisct1/fastly-openapi-schema](https://github.com/jedisct1/fastly-openapi-schema) - Provides an enhanced OpenAPI spec and MCP interface for managing Fastly services.
-- [mckinsey/vizro-mcp](https://github.com/mckinsey/vizro/tree/main/vizro-mcp) - Exposes Vizro’s low-code data-visualization toolkit so LLMs can build charts and dashboards.
-- [microsoft/markitdown](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp) - Converts dozens of file types to Markdown on demand so LLMs can read rich documents easily.
-- [pinecone-io/assistant-mcp](https://github.com/pinecone-io/assistant-mcp) - Fetches context from your Pinecone Assistant to ground LLM answers in vector-store knowledge.
-- [pulumi/mcp-server](https://github.com/pulumi/mcp-server) - Allows LLMs to preview, deploy and query Pulumi stacks programmatically without the Pulumi CLI.
-- [pydantic/logfire-mcp](https://github.com/pydantic/logfire-mcp) - Gives LLMs SQL and trace-analysis access to OpenTelemetry data stored in Logfire.
-- [skysqlinc/skysql-mcp](https://github.com/skysqlinc/skysql-mcp) - Manages SkySQL (MariaDB) cloud databases and SkyAI agents through MCP tools.
-- [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp) - Links AI assistants directly to Supabase projects for table management, querying and config.
-- [tinyfish-io/agentql-mcp](https://github.com/tinyfish-io/agentql-mcp) - Provides data-extraction tools that turn any web page into structured JSON.
-- [translated/lara-mcp](https://github.com/translated/lara-mcp) - Exposes Lara Translate’s multilingual translation API, including language detection and context-aware translations.
-- [yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js) - Runs YepCode processes and LLM-generated scripts so agents can automate pipelines through MCP.
+* [21st.dev Magic MCP](https://github.com/21st-dev/magic-mcp) – Helps developers create UI components through natural language, seamlessly integrating with popular IDEs for an AI-driven UI development workflow.
+* [Adfin MCP](https://github.com/Adfin-Engineering/mcp-server-adfin) – Integrates with Adfin’s all-in-one payments platform (invoicing, billing, accounting) to automate tasks like invoice creation and credit control checks.
+* [AgentQL MCP](https://docs.agentql.com/integrations/mcp) – Integrates AgentQL’s data extraction capabilities with AI automation, enabling seamless retrieval of structured data from unstructured web pages.
+* [AgentRPC MCP](https://agentrpc.com) – A universal RPC layer that lets AI agents call any function, in any language, across network boundaries, unifying tools via a single interface.
+* [Aiven MCP](https://github.com/aiven/mcp-aiven) – Navigate Aiven projects and interact with managed services like PostgreSQL, Apache Kafka, ClickHouse, and OpenSearch via natural language.
+* [Alibaba Cloud RDS MCP](https://github.com/alibabacloud-mcp/mcp-alibabacloud-rds) – Connects to Alibaba Cloud RDS OpenAPI, allowing programmatic management of database instances through an AI assistant.
+* [Alibaba Cloud AnalyticDB MCP](https://github.com/alibabacloud-mcp/mcp-analyticdb-mysql) – Interfaces with AnalyticDB for MySQL clusters to retrieve schema metadata and query data, helping AI agents analyze database content.
+* [Alibaba Cloud OPS MCP](https://github.com/alibabacloud-mcp/mcp-cloudops) – Manage the lifecycle of Alibaba Cloud resources (via CloudOps Orchestration Service APIs) through natural language commands.
+* [Apache IoTDB MCP](https://github.com/apache/iotdb-mcp) – Enables AI-driven queries and operations on Apache IoTDB time-series databases and related tools.
+* [Apify Actors MCP](https://apify.com/actors-mcp) – Leverages Apify’s library of 3,000+ cloud bots (“actors”) to extract data from websites, e-commerce, social media, maps, and more via MCP.
+* [APIMatic MCP](https://github.com/apimatic/mcp-server) – Uses APIMatic’s API to validate OpenAPI specifications, processing spec files and returning validation summaries through an AI assistant.
+* [Apollo Graph MCP](https://github.com/apollographql/mcp-server) – Connects GraphQL APIs to AI agents, allowing them to query and interact with Apollo GraphQL services conversationally.
+* [AppOmni AskOmni MCP](https://appomni.com/press-releases/worlds-first-saas-security-mcp-server/) – AppOmni’s AI-powered security companion (AskOmni) now functions as an MCP server, providing deep insights into SaaS identities, security posture, data exposures, and user behaviors for enhanced threat investigation.
+* [Arize Phoenix MCP](https://github.com/Arize-ai/phoenix-mcp) – Integrates with Arize Phoenix (open-source LLM observability) so agents can inspect LLM traces, manage prompts, curate datasets, and run experiments.
+* [Asana MCP](https://developers.asana.com/docs/using-asanas-model-control-protocol-mcp-server) – Provides a way to interact with your Asana projects and tasks through various AI platforms and tools that support MCP.
+* [Astra DB (DataStax) MCP](https://github.com/datastax/mcp-astra) – Equips AI assistants to manage a DataStax Astra DB NoSQL database (create, update, delete, find documents, and bulk operations) via natural language.
+* [Atlassian (Jira & Confluence) MCP](https://www.atlassian.com/platform/remote-mcp-server) – Allows AI assistants to securely connect with Jira and Confluence, enabling them to summarize work items, retrieve knowledge base content, and create issues or pages directly from within AI tools.
+* [Atlan MCP](https://github.com/atlanhq/mcp-server) – Connects to the Atlan data catalog platform, allowing AI agents to search and interact with data assets, glossaries, and metadata via MCP.
+* [Audiense Insights MCP](https://github.com/AudienseCo/insights-mcp) – Gives AI agents access to Audiense marketing insights and audience analysis (demographics, interests, influencers, content engagement) via natural language.
+* [AWS MCP Servers](https://github.com/aws/mcp-aws) – A collection of AWS-integrated MCP servers that bring AWS best practices and services (e.g. AWS SDK tasks, cloud resource management) into your AI development workflow.
+* [Axiom MCP](https://github.com/axiomhq/mcp-axiom) – Enables querying and analyzing your Axiom telemetry data (logs, traces, events) in natural language via an MCP interface.
+* [Azure MCP](https://github.com/Azure/azure-mcp) – Gives AI agents access to Microsoft Azure services and tools (Storage, Cosmos DB, Azure CLI, etc.), allowing natural language operations across Azure resources.
+* [Bankless Onchain MCP](https://github.com/BanklessDAO/onchain-mcp) – Lets AI agents query on-chain blockchain data (e.g. ERC-20 token balances, transaction history, smart contract state) via natural language.
+* [BICScan MCP](https://github.com/BlockIsCapital/BICScan-mcp) – Allows AI-driven risk scoring and asset holding checks for Ethereum addresses (EOAs, contracts, ENS names) using BICScan’s blockchain intelligence.
+* [Bitrise MCP](https://github.com/bitrise-io/mcp-bitrise) – Connects to Bitrise CI/CD, so you can “chat” with your build logs, check CI statuses, and more via an AI assistant.
+* [Box MCP](https://github.com/box/mcp-server) – Interacts with the Box Content Cloud (enterprise content management) via Box AI, enabling queries and content operations through natural language.
+* [Browserbase MCP](https://github.com/browserbase/browserbase-mcp) – Automates browser interactions in the cloud (web navigation, data extraction, form filling, etc.) for AI agents.
+* [Burp Suite MCP](https://github.com/portswigger/burp-mcp) – An extension for PortSwigger’s Burp Suite that allows AI clients to perform web security testing tasks via MCP.
+* [Cartesia MCP](https://github.com/cartesia-ai/mcp-server) – Connects to the Cartesia voice platform, enabling text-to-speech, voice cloning, and other voice AI operations via MCP.
+* [Chargebee MCP](https://github.com/chargebee/mcp-server) – Allows AI agents to interact with the Chargebee subscription billing platform (managing subscriptions, invoices, etc.) through natural language.
+* [Chiki Studio MCP](https://chiki.studio) – Lets you create custom MCP servers via a no-code configuration interface (instructions, prompts, and tool definitions) using Chiki Studio’s platform.
+* [Chroma MCP](https://github.com/chroma-core/mcp-chroma) – Integrates the Chroma vector database, so AI assistants can perform embeddings, vector search, document storage, and full-text search on the Chroma DB.
+* [Chronulus AI MCP](https://github.com/chronulus-ai/mcp-server) – Connects to Chronulus AI’s forecasting and prediction agents, allowing AI assistants to request predictions (“predict anything”) via MCP.
+* [CircleCI MCP](https://github.com/CircleCI-Public/mcp-circleci) – Enables AI agents to interact with CircleCI build pipelines, helping diagnose and fix build failures through natural language.
+* [ClickHouse MCP](https://github.com/ClickHouse/mcp-clickhouse) – Gives AI the ability to query a ClickHouse analytics database and retrieve results conversationally.
+* [Cloudflare MCP](https://github.com/cloudflare/mcp-server-cloudflare) – Lets AI agents deploy, configure, and inspect resources on Cloudflare’s developer platform (Workers, KV, R2 storage, D1 databases, etc.) via MCP.
+* [Codacy MCP](https://github.com/codacy/mcp-codacy) – Connects to Codacy’s code quality platform, allowing queries of code issues, vulnerabilities, and coverage reports through natural language.
+* [CodeLogic MCP](https://github.com/codelogic-ai/mcp-codelogic) – Interfaces with CodeLogic’s software intelligence platform (code and data dependency graph), so AI can answer questions about complex code architecture.
+* [Comet “Opik” MCP](https://github.com/comet-ml/opik-mcp) – Allows natural language queries and analysis of Opik (Comet’s LLM telemetry) logs, traces, prompts, and other LLM performance data.
+* [Confluent MCP](https://github.com/confluentinc/mcp-confluent) – Integrates with Confluent (Apache Kafka platform), enabling AI agents to interact with Kafka clusters and Confluent Cloud via REST APIs.
+* [Convex MCP](https://github.com/get-convex/convex-mcp) – Introspects and queries applications deployed on the Convex backend-as-a-service platform, allowing AI to retrieve app data and schema info.
+* [Couchbase MCP](https://github.com/couchbase/mcp-couchbase) – Permits AI assistants to query and manipulate data stored in Couchbase NoSQL database clusters via natural language.
+* [CRIC Wuye AI MCP](https://github.com/ke-ruier/mcp-cric-wuye) – Connects to the CRIC Wuye AI platform (for property management), enabling AI-driven interactions with property management data and tools.
+* [Dart (itsdart.com) MCP](https://github.com/itsdart/mcp-dart) – Interacts with Dart (AI-native project management tool) to retrieve and update tasks, documents, and project data via AI queries.
+* [DataHub MCP](https://github.com/acryldata/mcp-datahub) – Allows AI to search DataHub’s metadata catalog, traverse data lineage, execute SQL queries on connected datasets, and more using DataHub APIs.
+* [DexPaprika MCP](https://github.com/CoinPaprika/dexpaprika-mcp) – Provides real-time DeFi data through CoinPaprika’s DexPaprika API, so AI agents can query DEX liquidity pools, token info, and trading analytics across blockchains.
+* [DevHub MCP](https://github.com/devhubapp/mcp-devhub) – Enables AI-based management of website content in the DevHub CMS platform (search content, edit or create pages, etc.).
+* [DevRev MCP](https://github.com/devrev/mcp-devrev) – Connects to DevRev’s APIs, allowing AI to search a DevRev Knowledge Graph of tickets, tasks, and objects (from various sources) and answer queries about them.
+* [Dynatrace MCP](https://github.com/dynatrace-oss/mcp-dynatrace) – Integrates with the Dynatrace observability platform, so AI assistants can query real-time monitoring data and manage cloud observability resources via natural language.
+* [E2B MCP](https://github.com/e2b-dev/mcp-e2b) – Allows AI to run code in secure sandboxes provided by E2B (Everything is a Browser) and manage those sandboxed environments via MCP commands.
+* [Edgee MCP](https://github.com/edgee/edgee-mcp) – Interfaces with Edgee (edge cloud platform) so AI can deploy and manage Edgee components and projects through natural language instructions.
+* [EduBase MCP](https://github.com/edubase-ai/edubase-mcp) – Connects to the EduBase e-learning platform, enabling AI to manage quizzes, exams, and organized learning content via MCP queries.
+* [Elasticsearch MCP](https://github.com/elastic/mcp-elasticsearch) – Allows AI to query data in an Elasticsearch cluster through natural language search requests.
+* [eSignatures MCP](https://github.com/eversign/mcp-esignatures) – Gives AI agents tools for contract and template management, enabling drafting, reviewing, and sending of digital contracts via the eSignatures API.
+* [Exa MCP](https://github.com/exaai/mcp-exa) – Connects to Exa, an AI-oriented search engine, allowing AI assistants to perform web searches and retrieve information optimized for AI consumption.
+* [Fewsats MCP](https://github.com/fewsats/mcp) – Enables secure purchasing of goods via AI: the Fewsats API lets AI agents perform e-commerce transactions on behalf of users in a controlled manner.
+* [Fibery MCP](https://github.com/fibery/mcp-fibery) – Performs queries and entity operations in a Fibery workspace (an all-in-one work management platform) through natural language (searching items, updating data, etc.).
+* [Financial Datasets MCP](https://github.com/YourName/financial-datasets-mcp) – Exposes a stock market data API for AI agents, allowing retrieval of financial data and indicators for analysis.
+* [Firecrawl MCP](https://github.com/firecrawl/mcp-firecrawl) – Allows web data extraction via Firecrawl, enabling AI to scrape and parse websites with dynamic rendering in an AI-friendly format.
+* [Fireproof MCP](https://github.com/classic-roots/mcp-fireproof) – Interfaces with Fireproof, an immutable ledger database, so AI assistants can record and sync data with tamper-proof persistence.
+* [ForeverVM MCP](https://github.com/ForeverVM/mcp-server) – Provides an isolated Python execution sandbox (virtual machine) for AI, allowing safe code runs and computations through natural language commands.
+* [GibsonAI MCP](https://github.com/GibsonAI/gibson-mcp) – Connects to GibsonAI’s cloud database platform, enabling AI-driven database provisioning, migration, and deployment via natural language.
+* [Gitea MCP](https://gitea.com) – Lets AI interact with self-hosted Gitea git servers, performing repository queries, issue tracking, and pull request operations via MCP.
+* [Gitee MCP](https://github.com/Gitee/mcp-gitee) – Integrates Gitee (Chinese git hosting) APIs, allowing AI to manage repositories, issues, and PRs on Gitee through conversational commands.
+* [Glean MCP](https://github.com/Glean-ai/mcp-glean) – Connects to Glean’s enterprise search, enabling AI assistants to perform enterprise search queries and chat about results using Glean’s API.
+* [Gyazo MCP](https://github.com/notomainstream/gyazo-mcp) – Allows AI to search, fetch, upload, and analyze images on Gyazo, including reading image metadata and performing OCR on images via MCP.
+* [gotoHuman MCP](https://github.com/gotohuman/mcp-gotohuman) – Integrates with gotoHuman’s human-in-the-loop platform, so AI agents can send action requests for human approval (to a gotoHuman inbox) when needed.
+* [Grafana MCP](https://github.com/grafana/mcp-grafana) – Enables AI to search Grafana dashboards, investigate incidents, and query data sources in a Grafana instance using natural language.
+* [Grafbase MCP](https://github.com/grafbase/mcp-grafbase) – Turns your GraphQL API on Grafbase into an MCP server with schema introspection, allowing AI agents to query and mutate data via GraphQL in one command.
+* [Graphlit MCP](https://github.com/graphlit-ai/graphlit-mcp) – Lets AI ingest and search content in a Graphlit project (from Slack, Gmail, RSS feeds, web crawling, etc.), making the project’s knowledge accessible via natural language.
+* [GreptimeDB MCP](https://github.com/GreptimeTeam/greptime-mcp) – Provides AI assistants a secure, structured interface to explore and analyze time-series data in a GreptimeDB database.
+* [Heroku MCP](https://github.com/heroku/mcp-heroku) – Allows AI to interact with the Heroku platform (manage apps, add-ons, dynos, databases, etc.) using LLM-driven commands.
+* [Hologres MCP](https://github.com/alibaba/Hologres-MCP) – Connects to Alibaba’s Hologres analytic database, so AI agents can get table schemas and execute SQL queries on Hologres instances.
+* [Honeycomb MCP](https://github.com/honeycombio/mcp-honeycomb) – Gives enterprise Honeycomb customers an AI interface to query and analyze observability data (traces, metrics, alerts, dashboards), correlating production behavior with code deployments.
+* [HubSpot MCP](https://developers.hubspot.com/docs/mcp) – Connects to HubSpot’s CRM, allowing AI to manage contacts, companies, deals, etc., and answer questions using HubSpot CRM data.
+* [Hyperbrowser MCP](https://www.hyperbrowser.ai) – Integrates Hyperbrowser’s platform to empower AI agents with large-scale browser automation, enabling effortless web interactions for the agent.
+* [IBM watsonx Flows MCP](https://www.ibm.com/watsonx) – IBM’s wxFlows tool-building platform provides an MCP server to build, test, and deploy AI tools that interface with any data source.
+* [Inbox Zero MCP](https://github.com/Inbox-Zero/mcp-inbox-zero) – An AI personal assistant for email; it connects to your Inbox Zero email management app, letting AI read, search, and draft emails on your behalf.
+* [Inkeep MCP](https://inkeep.com) – Allows retrieval-augmented generation (RAG) searches over your content via Inkeep, enabling AI assistants to search an Inkeep-powered knowledge base of documents.
+* [Integration App MCP](https://github.com/IntegrationApp/mcp) – A generic integration server that lets AI interact with other SaaS applications on behalf of your users, effectively functioning as a universal connector.
+* [JetBrains MCP](https://github.com/JetBrains/mcp-jetbrains) – Connects AI assistants to JetBrains IDEs, allowing them to work on your codebase (navigating, editing, running code) through natural language commands.
+* [Kagi Search MCP](https://kagi.com) – Enables AI to perform web searches using the Kagi search API, retrieving high-quality search results through MCP.
+* [Keboola MCP](https://github.com/keboola/mcp-keboola) – Integrates Keboola’s data platform, allowing AI agents to orchestrate data workflows, run integrations, and perform analytics on Keboola.
+* [Klavis ReportGen MCP](https://github.com/klavis-ai/mcp-reportgen) – Creates professional reports from simple user queries by interfacing with Klavis’s report generation engine.
+* [KWDB MCP](https://github.com/kwdb/kwdb-mcp) – Allows reading, writing, querying, and modifying data in a KWDB database (and even performing DDL operations) via natural language instructions.
+* [Lara Translate MCP](https://github.com/laratranslate/mcp-lara) – Connects to the Lara Translate API, providing powerful machine translation with language detection and context-aware translation capabilities.
+* [Langfuse Prompt Management MCP](https://github.com/langfuse/langfuse-mcp) – Integrates Langfuse (an open-source prompt management and versioning tool), so AI agents can collaborate on editing, versioning, and evaluating prompts.
+* [Linear MCP](https://github.com/linearapp/mcp-linear) – Allows AI to search, create, and update issues, projects, and comments in a Linear project management workspace via natural language.
+* [Lingo.dev MCP](https://lingo.dev) – Makes your AI agent multilingual by leveraging Lingo.dev’s localization engine, enabling translation of content into any language as an MCP tool.
+* [Litmus Edge MCP](https://litmus.io) – The official MCP server for Litmus Edge, allowing AI to configure Edge devices for Industrial Data Collection, perform Edge Analytics, and manage Industrial AI deployments.
+* [Mailgun MCP](https://github.com/mailgun/mcp-mailgun) – Interacts with the Mailgun email delivery API, letting AI agents send emails, manage mailing lists, and query email logs.
+* [Make.com MCP](https://github.com/makehq/mcp-make) – Turns your Make (Integromat) automation scenarios into callable tools, enabling AI assistants to run and manage workflow automations via MCP.
+* [MCP Toolbox for Databases](https://github.com/GoogleCloudPlatform/mcp-database-toolbox) – An open-source MCP server offering easy, fast, and secure database tools. Supports multiple databases (AlloyDB, BigQuery, Bigtable, Cloud SQL, MySQL, Postgres, Neo4j, Spanner, etc.) for AI agents.
+* [Meilisearch MCP](https://github.com/meilisearch/mcp-meilisearch) – Allows AI to interact with a Meilisearch instance, performing full-text and semantic search queries via natural language.
+* [Memgraph MCP](https://github.com/memgraph/mcp-memgraph) – Lets AI query data in a Memgraph real-time graph database, including running graph algorithms and retrieving results.
+* [Metoro MCP](https://github.com/metoro-io/mcp-metoro) – Allows AI to query and interact with Kubernetes environments monitored by Metoro, for cloud infrastructure insights and management.
+* [Microsoft Clarity MCP](https://github.com/microsoft/mcp-clarity) – Provides AI with access to user behavior analytics from Microsoft Clarity (session recordings, heatmaps, insights) to inform UX or troubleshooting decisions.
+* [Milvus MCP](https://github.com/milvus-io/mcp-milvus) – Enables searching, querying, and managing data in a Milvus vector database via natural language (vector similarity queries, etc.).
+* [Momento MCP](https://github.com/momentohq/mcp-momento) – Interfaces with Momento Serverless Cache, letting AI assistants quickly cache and retrieve data to improve performance and handle scale.
+* [MongoDB MCP](https://github.com/mongodb/mcp-mongodb) – Provides tools for AI to interact with MongoDB databases (both Community server and Atlas cloud), supporting typical read/write operations.
+* [MotherDuck MCP](https://github.com/motherduckai/mcp-motherduck) – Enables AI to query and analyze data using MotherDuck (DuckDB-as-a-service), handling local DuckDB files and MotherDuck cloud data seamlessly.
+* [Needle (Needle.ai) MCP](https://github.com/needle-ai/mcp-needle) – A production-ready Retrieval-Augmented Generation (RAG) server that indexes your documents and enables AI to search and retrieve relevant data from them.
+* [Neo4j MCP](https://github.com/neo4j-contrib/neo4j-mcp) – An MCP server for Neo4j, allowing AI to query graph data with Cypher (including full read/write access) and utilize a graph-backed memory for context.
+* [Neon Postgres MCP](https://github.com/neondatabase/neon-mcp) – Connects to Neon’s serverless Postgres platform, enabling AI to run SQL queries and manage databases on Neon.
+* [Netlify MCP](https://docs.netlify.com/experimental/mcp) – Allows AI to create, build, deploy, and manage websites on the Netlify platform through natural language commands (CI/CD for web projects).
+* [Notion MCP](https://github.com/sixthpath/notion-mcp) – Implements an MCP server for the Notion API, so AI assistants can query and update Notion pages, databases, and content via natural language.
+* [OceanBase MCP](https://github.com/oceanbase/mcp-oceanbase) – Enables AI-based interaction with OceanBase distributed SQL database, including querying data and managing the database cluster.
+* [Octagon MCP](https://github.com/octagonplatform/mcp-octagon) – Connects to the Octagon investment research platform, giving AI access to extensive private and public market data for real-time analysis.
+* [Ola Maps MCP](https://pypi.org/project/olamaps-mcp) – The official Ola Maps MCP server, letting AI use Ola Maps services (geocoding, directions, place details, etc.) via simple queries.
+* [OP.GG MCP](https://github.com/opgglabs/mcp-opgg) – Provides real-time gaming data via OP.GG (for games like League of Legends, TFT, Valorant), allowing AI to fetch champion stats, esports schedules, meta trends, and more.
+* [OpsLevel MCP](https://github.com/OpsLevel/mcp-opslevel) – Official MCP server for OpsLevel (microservice catalog), enabling AI to query service ownership, check service health, and navigate DevOps metadata via natural language.
+* [Oxylabs MCP](https://github.com/oxylabs/mcp-oxylabs) – Integrates Oxylabs’ Web Scraping API, allowing AI to scrape websites with dynamic rendering and parse the results for structured data extraction.
+* [Paddle MCP](https://github.com/PaddleHQ/paddle-mcp) – Connects to the Paddle API, so AI agents can manage a SaaS’s product catalog, billing, subscriptions, and financial reports through natural language.
+* [Pagos MCP](https://github.com/PagosAI/pagos-mcp) – Interfaces with the Pagos API, enabling AI assistants to query credit card BIN data and other payment intelligence (with more features forthcoming).
+* [PayPal MCP](https://developer.paypal.com/docs/mcp) – PayPal’s official MCP server lets developers connect AI clients (e.g. OpenAI, Claude) via natural language to handle tasks like creating/listing invoices, generating transaction reports, and accessing merchant insights.
+* [Perplexity MCP](https://github.com/perplexityai/mcp-perplexity) – Connects to Perplexity’s “Sonar” web search API, enabling AI assistants to perform real-time web research and answer questions with up-to-date information.
+* [Pinecone MCP](https://docs.pinecone.io/docs/mcp-server) – Pinecone’s developer MCP server allows AI assistants to search Pinecone’s vector database documentation and manage vector indexes in a development environment.
+* [Pinecone Assistant MCP](https://docs.pinecone.io/docs/pinecone-assistant) – Retrieves context from your Pinecone Assistant knowledge base, enabling AI agents to leverage Pinecone’s docs and examples for guidance.
+* [Prisma MCP](https://www.prisma.io) – Allows AI to create and manage Prisma (ORM) Postgres databases, using natural language to define schemas and handle database operations.
+* [Pulumi MCP](https://github.com/pulumi/mcp-pulumi) – Lets AI deploy and manage cloud infrastructure via Pulumi’s IaC platform, enabling advanced automation of Infrastructure-as-Code through natural language.
+* [Pure.md MCP](https://pure.md) – Provides reliable access to web content in Markdown format (with built-in bot detection evasion, proxy rotation, and headless JS rendering) for AI consumption via MCP.
+* [Put.io MCP](https://github.com/putdotio/putio-mcp) – Allows AI to interact with your Put.io cloud torrent service, e.g. searching and downloading torrent files to your account via natural language.
+* [Ragie MCP](https://www.ragie.ai) – Retrieves context from your Ragie knowledge base (which can integrate Google Drive, Notion, Jira, etc.), allowing AI agents to pull in relevant data for answering queries.
+* [Ramp MCP](https://github.com/RampHQ/mcp-ramp) – Connects to Ramp’s spend management API, so AI can analyze corporate spending data and generate insights or reports leveraging LLMs.
+* [Raygun MCP](https://github.com/raygun-ltd/mcp-raygun) – Allows AI to interact with your Raygun account’s crash reports and real user monitoring data, providing natural language access to application error and performance insights.
+* [Rember MCP](https://rember.com) – Creates spaced-repetition flashcards in Rember from AI chats, so your AI assistant can help you remember anything by generating and reviewing flashcards.
+* [Riza MCP](https://riza.io) – An arbitrary code execution and tool-use platform for LLMs. Riza’s MCP server lets AI run code and use tools across different environments via natural language.
+* [Root Signals MCP](https://github.com/rootsignals/mcp-rootsignals) – Helps improve and quality-check AI outputs by running evaluations with an “LLM-as-Judge” approach, integrating Root Signals for output scoring.
+* [Search1API MCP](https://search1api.com) – Provides a unified API for web search, web crawling, and sitemap retrieval, allowing AI to perform internet searches and data extraction via one MCP tool.
+* [ScreenshotOne MCP](https://github.com/screenshotone/mcp-screenshotone) – Renders website screenshots on demand via ScreenshotOne’s API, so AI can capture webpage images or thumbnails through a simple command.
+* [Semgrep MCP](https://github.com/returntocorp/mcp-semgrep) – Enables AI agents to improve code security by running Semgrep vulnerability scans on codebases and interpreting the results.
+* [SingleStore MCP](https://github.com/singlestore-labs/mcp-singlestore) – Allows AI to query and interact with the SingleStore distributed SQL database platform via natural language.
+* [StarRocks MCP](https://github.com/StarRocks/mcp-starrocks) – Connects to the StarRocks analytical database, enabling AI to execute queries and retrieve insights from StarRocks via MCP.
+* [Stripe MCP](https://github.com/stripe/mcp-stripe) – Enables AI assistants to interact with the Stripe API (payments and finance) through natural language (e.g. creating charges, checking balances).
+* [Tavily MCP](https://github.com/tavily-io/mcp-tavily) – A specialized search engine for AI agents that performs web search and content extraction, powered by Tavily’s search platform.
+* [Terraform MCP](https://github.com/hashicorp/mcp-terraform) – Seamlessly integrates with the Terraform IaC ecosystem, so AI can manage infrastructure code, generate Terraform configurations, and interact with Terraform Cloud.
+* [Thirdweb MCP](https://github.com/thirdweb-dev/mcp-thirdweb) – Gives AI the ability to read from and write to over 2,000 blockchains via Thirdweb, including querying on-chain data, analyzing smart contracts, deploying contracts, and sending transactions.
+* [Tianji MCP](https://github.com/msgbyte/tianji-mcp) – Connects to the Tianji chat platform (self-hosted or cloud), enabling AI agents to interact with messages and data on the Tianji platform.
+* [TiDB MCP](https://github.com/tidb-incubator/mcp-tidb) – An MCP server for PingCAP’s TiDB database, allowing AI agents to query and manage a TiDB distributed SQL database.
+* [Tinybird MCP](https://github.com/tinybirdco/tinybird-mcp) – Interfaces with Tinybird’s serverless ClickHouse platform, enabling natural language queries and data interactions with Tinybird endpoints.
+* [tl;dv (tldv) MCP](https://gitlab.com/tldv/mcp) – Connects AI agents to video meeting recordings from Google Meet, Zoom, and Microsoft Teams via tl;dv, allowing them to search transcripts and summarize calls.
+* [UnifAI MCP](https://unifai.network) – Dynamically searches and invokes tools using the UnifAI Network, enabling AI to discover and call third-party tools on the fly to fulfill user requests.
+* [Unstructured MCP](https://github.com/Unstructured-IO/unstructured-mcp) – Lets AI set up and interact with data processing workflows on Unstructured.io, converting unstructured documents into structured data via AI instructions.
+* [Upstash MCP](https://github.com/upstash/mcp-upstash) – Allows AI to manage serverless Redis databases on Upstash, executing Redis commands and database operations with natural language.
+* [Vectorize MCP](https://vectorize.io) – An advanced retrieval and file-processing MCP server (by Vectorize) that handles semantic search, “anything-to-Markdown” file extraction, and text chunking for AI deep research workflows.
+* [Verbwire MCP](https://github.com/verbwire/mcp-verbwire) – Enables AI to deploy smart contracts, mint NFTs, manage IPFS storage, and more via Verbwire’s Web3 API, making blockchain interactions accessible through language.
+* [Verodat MCP](https://github.com/verodat/mcp-verodat) – Allows AI agents to interface with the Verodat data platform, enabling queries and updates on “AI Ready” enterprise datasets.
+* [VeyraX MCP](https://github.com/veyrax/mcp-veyrax) – A single MCP tool providing access to 100+ API integrations and UI components via the VeyraX platform, acting as a comprehensive integration layer for AI.
+* [WayStation MCP](https://github.com/waystation-ai/mcp-waystation) – A universal MCP server that connects AI agents to popular productivity tools (Notion, Monday.com, Airtable, and many more) through a common interface.
+* [Xero MCP](https://github.com/XeroAPI/xero-mcp) – Interacts with Xero’s accounting platform to retrieve and manage business accounting data (invoices, transactions, contacts) using an official MCP server.
+* [YugabyteDB MCP](https://github.com/yugabyte/yugabyte-mcp) – Allows AI to query and manage a YugabyteDB distributed SQL database cluster through natural language instructions.
+* [Zapier MCP](https://zapier.com) – Instantly connects AI agents to over 8,000 apps via Zapier’s integration platform, enabling the AI to trigger actions and automate workflows across apps.
+* [ZenML MCP](https://github.com/zenml-io/zenml-mcp) – Lets AI assistants interact with your MLOps/LLMOps pipelines managed by ZenML, allowing them to run pipeline steps, check model statuses, and more through ZenML’s MCP server.
+
