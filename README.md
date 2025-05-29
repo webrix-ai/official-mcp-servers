@@ -1,5 +1,6 @@
 # official-mcp-servers
 
+- [Asana mcp](https://developers.asana.com/docs/using-asanas-model-control-protocol-mcp-server) - Provides a way to interact with your Asana workspace through various AI platforms and tools that support MCP.
 - [Atlassian remote mcp](https://www.atlassian.com/platform/remote-mcp-server) - Securely connect Jira and Confluence with your LLM, IDE, or agent platform of choice – starting with Anthropic
 - [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) - Surfaces CodeLogic’s software-dependency insights to coding assistants through MCP tools.
 - [Codex-Data/codex-mcp](https://github.com/Codex-Data/codex-mcp) - Supplies enriched multi-chain market and blockchain data to LLMs.
