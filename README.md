@@ -1,1 +1,42 @@
 # official-mcp-servers
+
+- [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) - Surfaces CodeLogic’s software-dependency insights to coding assistants through MCP tools.
+- [Codex-Data/codex-mcp](https://github.com/Codex-Data/codex-mcp) - Supplies enriched multi-chain market and blockchain data to LLMs.
+- [Couchbase-Ecosystem/mcp-server-couchbase](https://github.com/Couchbase-Ecosystem/mcp-server-couchbase) - Gives LLMs natural-language access to Couchbase clusters for document and SQL++ queries.
+- [Hypersequent/qasphere-mcp](https://github.com/Hypersequent/qasphere-mcp) - Gives LLMs direct access to QA Sphere test cases for discovery, summaries and chat inside IDEs.
+- [JetBrains/mcp-jetbrains](https://github.com/JetBrains/mcp-jetbrains) - Proxy server that wires MCP clients into JetBrains IDEs such as IntelliJ and PyCharm.
+- [Rootly-AI-Labs/Rootly-MCP-server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server) - Lets developers manage incidents and post-mortems through the Rootly API from their IDE.
+- [VictoriaMetrics-Community/mcp-victoriametrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics) - Lets agents run read-only VMUI queries against VictoriaMetrics for metrics exploration.
+- [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp) - Delivers risk scores and asset intelligence for blockchain addresses and domains.
+- [alchemy/alchemy-mcp-server](https://github.com/alchemyplatform/alchemy-mcp-server) - Provides structured blockchain-data access to Alchemy APIs for querying accounts, tokens and NFTs.
+- [aliyun/alibaba-cloud-ops-mcp-server](https://github.com/aliyun/alibaba-cloud-ops-mcp-server) - MCP server exposing ECS, Cloud Monitor, OOS and other Alibaba Cloud APIs to AI assistants.
+- [awslabs/mcp](https://github.com/awslabs/mcp) - A suite of specialized MCP servers that help you get the most out of AWS, wherever you use MCP.
+- [awslabs/mcp](https://github.com/awslabs/mcp) - Suite of AWS-focused MCP servers that give AI agents structured access to AWS services and resources.
+- [base/base-mcp](https://github.com/base/base-mcp) - On-chain tools that let agents interact with the Base network and Coinbase APIs via MCP.
+- [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase)  - This server provides cloud browser automation capabilities using [Browserbase](https://www.browserbase.com/) and [Stagehand](https://github.com/browserbase/stagehand). This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment.
+- [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) - Cloud browser-automation server that lets LLMs open pages, run JavaScript, and capture screenshots in a Browserbase instance.
+- [chargebee/mcp](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) - Connects Chargebee’s subscription-billing APIs to AI assistants over MCP.
+- [chroma-core/chroma-mcp](https://github.com/chroma-core/chroma-mcp) - Connects agents to Chroma vector stores for fast retrieval and embedding management.
+- [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Connects MCP clients to Cloudflare Workers, KV, R2, D1 and more through natural-language tools.
+- [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) - Real-time and historical DEX liquidity and token analytics through the DexPaprika API.
+- [comet-ml/opik-mcp](https://github.com/comet-ml/opik-mcp) - Unified MCP interface to the Opik observability platform for querying traces and metrics.
+- [currents-dev/currents-mcp](https://github.com/currents-dev/currents-mcp) - Lets agents pull Currents CI test-run data and ask for fixes or optimizations.
+- [cyclops-ui/mcp-cyclops](https://github.com/cyclops-ui/mcp-cyclops) - Lets AI agents create, inspect and update Kubernetes apps via the Cyclops abstraction.
+- [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp) - Official MCP server that exposes dbt project metadata and semantic-layer queries to AI tools.
+- [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) - Enables real-time web search via the Exa Search API so agents can pull fresh information.
+- [flowcore-io/mcp-flowcore-platform](https://github.com/flowcore-io/mcp-flowcore-platform) - Standard interface for querying and managing Flowcore platform resources.
+- [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) - Enables discovery, management and codification of cloud/SaaS resources tracked by Firefly.
+- [grafana/mcp-grafana](https://github.com/grafana/mcp-grafana) - MCP gateway to dashboards, queries and incident workflows in any Grafana instance.
+- [growthbook/growthbook-mcp](https://github.com/growthbook/growthbook-mcp) - Lets LLMs see experiment results and manage GrowthBook feature flags from within an IDE.
+- [heurist-network/heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) - Bridges AI agents to a mesh of specialized Web3-analysis tools covering on-chain data, security and token metrics.
+- [jedisct1/fastly-openapi-schema](https://github.com/jedisct1/fastly-openapi-schema) - Provides an enhanced OpenAPI spec and MCP interface for managing Fastly services.
+- [mckinsey/vizro-mcp](https://github.com/mckinsey/vizro/tree/main/vizro-mcp) - Exposes Vizro’s low-code data-visualization toolkit so LLMs can build charts and dashboards.
+- [microsoft/markitdown](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp) - Converts dozens of file types to Markdown on demand so LLMs can read rich documents easily.
+- [pinecone-io/assistant-mcp](https://github.com/pinecone-io/assistant-mcp) - Fetches context from your Pinecone Assistant to ground LLM answers in vector-store knowledge.
+- [pulumi/mcp-server](https://github.com/pulumi/mcp-server) - Allows LLMs to preview, deploy and query Pulumi stacks programmatically without the Pulumi CLI.
+- [pydantic/logfire-mcp](https://github.com/pydantic/logfire-mcp) - Gives LLMs SQL and trace-analysis access to OpenTelemetry data stored in Logfire.
+- [skysqlinc/skysql-mcp](https://github.com/skysqlinc/skysql-mcp) - Manages SkySQL (MariaDB) cloud databases and SkyAI agents through MCP tools.
+- [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp) - Links AI assistants directly to Supabase projects for table management, querying and config.
+- [tinyfish-io/agentql-mcp](https://github.com/tinyfish-io/agentql-mcp) - Provides data-extraction tools that turn any web page into structured JSON.
+- [translated/lara-mcp](https://github.com/translated/lara-mcp) - Exposes Lara Translate’s multilingual translation API, including language detection and context-aware translations.
+- [yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js) - Runs YepCode processes and LLM-generated scripts so agents can automate pipelines through MCP.
